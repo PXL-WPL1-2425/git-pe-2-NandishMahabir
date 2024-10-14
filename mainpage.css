@@ -19,7 +19,8 @@ img{
 #ul-container{
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 75%;
 }
 a{
     text-align: center;
@@ -27,4 +28,12 @@ a{
     font-size: 14px;
     color: white;
     text-decoration: none;
+}
+#login{
+    margin-top: 4%;
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 25px;
+    width: 75px;
 }
