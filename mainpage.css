@@ -1,8 +1,6 @@
-body{
-    background-color: dodgerblue;
-}
 .nav-container{
     display: flex;
+    overflow: hidden;
 }
 div{
     width: 33%;
@@ -36,4 +34,12 @@ a{
     background-color: red;
     border-radius: 25px;
     width: 75px;
+}
+video{
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+
 }
