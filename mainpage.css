@@ -1,15 +1,30 @@
-nav{
-    ;
+body{
+    background-color: dodgerblue;
 }
-
+.nav-container{
+    display: flex;
+}
 div{
-    display: inline-block;
     width: 33%;
+}
+.div-container{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 img{
     display: block;
     width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+}
+#ul-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+a{
+    text-align: center;
+    width: 33%;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
 }
